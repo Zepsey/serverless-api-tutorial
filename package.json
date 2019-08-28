@@ -1,0 +1,17 @@
+{
+  "name": "serverless-tutorial-rds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec \"serverless offline\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postgresql-easy": "^1.2.5",
+    "serverless-offline": "^5.10.1"
+  }
+}
